@@ -1,0 +1,47 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1#title {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.dot {
+	stroke: black;
+	stroke-width: 1px;
+}
+
+svg {
+	background-color: #f4f4f4;
+	display: block; /* Center the SVG */
+	margin: 0 auto; /* Center the SVG */
+}
+
+.nodoping {
+	fill: orange; /* Fill with color */
+}
+
+.doping {
+	fill: blue; /* Fill with color */
+}
+
+#tooltip {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 12px;
+	pointer-events: none;
+}
+
+#legend rect {
+	stroke: black;
+	stroke-width: 1px;
+}
+
+#legend text {
+	font-size: 12px;
+	alignment-baseline: middle;
+}
